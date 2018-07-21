@@ -1,4 +1,4 @@
-<?php require_once('./config.php'); ?>
+﻿<?php require_once('./config.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +10,7 @@
 <form action="charge.php" method="post">
 	<script type="text/javascript" src="script.js"></script>
   <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-          data-key="<?php echo $stripe['publishable_key']; ?>"
+          data-key="<?php echo $stripe['pk_live_YKOKeayCSvS8oqdRgMW5cvlR']; ?>"
           data-description="Donación"
           data-amount="500"
           data-locale="auto"></script>
