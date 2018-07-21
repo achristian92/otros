@@ -1,0 +1,5 @@
+En el archivo index.php busca
+data-key="<?php echo $stripe['publishable_key']; ?>"
+ y cambia publishable_key por tu key publica de stripe
+
+en le archivo config.php cambia los datos de private_key y public_key
