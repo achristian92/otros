@@ -6,5 +6,5 @@ $stripe = array(
   "publishable_key" => "pk_live_YKOKeayCSvS8oqdRgMW5cvlR"
 );
 
-\Stripe\Stripe::setApiKey($stripe['secret_key']);
+\Stripe\Stripe::setApiKey($stripe['sk_live_RTZiI5wu4CJBZd39e8QiRcit']);
 ?>
